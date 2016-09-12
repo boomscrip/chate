@@ -1,19 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-	<link rel="stylesheet" type="text/css"href="index.css">
-</head>
-<body>
-  <form action="">
-		<input type="submit">
-		<input type="text" name="message" id="gas">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Chat</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles/style.css" media="screen" title="no title" charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Laila:500' rel='stylesheet' type='text/css'>	</head>
+	<body>
+		<h1 class="text-center">WELCOME to Chat</h1>
+		<div class="container-fluid">
 
-  </form>
-  <H1>Привет</H1>
-<script src="index.js"></script>
-</body>
+
+			<div class="row">
+				<div class="col-xs-6">
+					<ul>
+											<li class="message-field">
+												<span class="nickname">Alex : </span>
+												<span class="message">Саша рисуй радугу!!!</span>
+											</li>
+										</ul>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="input-group navbar-fixed-bottom">
+						<div class="input-group-btn">
+							<button type="button" class="btn btn-default" aria-label="Bold">
+								<span class="glyphicon glyphicon-bold"></span>
+							</button>
+							<button type="button" class="btn btn-default" aria-label="Italic">
+								<span class="glyphicon glyphicon-italic"></span>
+								<button type="button" class="btn btn-default">
+									<span class="glyphicon glyphicon-ok"></span>
+								</button>
+							</button>
+						</div>
+								<input type="text" class="form-control" aria-label="Text input with multiple buttons">
+
+
+						</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

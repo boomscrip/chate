@@ -1,0 +1,14 @@
+body {
+
+	font-family: 'Laila', serif;
+	background-image: url('foto.jpg');
+}
+
+.nickname {
+	color: rgb(56, 36, 170);
+	font-weight: bold;
+}
+
+.message-field {
+	font-size: 22px;
+}
